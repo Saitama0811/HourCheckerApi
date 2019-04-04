@@ -1,0 +1,14 @@
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\bin\Debug\netcoreapp2.2\HourlyChecker.deps.json
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\bin\Debug\netcoreapp2.2\HourlyChecker.runtimeconfig.json
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\bin\Debug\netcoreapp2.2\HourlyChecker.runtimeconfig.dev.json
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\bin\Debug\netcoreapp2.2\HourlyChecker.dll
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.csprojAssemblyReference.cache
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.csproj.CoreCompileInputs.cache
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.RazorAssemblyInfo.cache
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.RazorAssemblyInfo.cs
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.AssemblyInfoInputs.cache
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.AssemblyInfo.cs
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.RazorTargetAssemblyInfo.cache
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\bin\Debug\netcoreapp2.2\HourlyChecker.pdb
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.dll
+C:\Users\int110\source\repos\HourlyChecker\HourlyChecker\obj\Debug\netcoreapp2.2\HourlyChecker.pdb
