@@ -1,0 +1,7 @@
+create database HourChecker
+use HourChecker
+create table data_table (User_ID int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+firstName varchar(20),
+lastName varchar(20),email varchar(20),phoneNumber varchar(10),qualification varchar(20),
+date varchar(20), hour varchar(2), minutes varchar(2)
+)
