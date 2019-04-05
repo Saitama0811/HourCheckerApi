@@ -25,19 +25,23 @@ namespace HourlyChecker.Models
             var latestrecordhour = _context.DataTable.OrderByDescending(latest => latest.Hour).Take(1);
             int convertedhours = 0 ;
             int convertedminutes = 0;
+            string dbDate = "";
             string record = "";
            foreach (var hour in latestrecordhour)
             {
                 convertedhours = Convert.ToInt32(hour.Hour);
                 convertedminutes = Convert.ToInt32(hour.Minutes);
                 record = Convert.ToString(hour.Email);
+                dbDate = Convert.ToString(hour.Date);
             }
-            //var latestrecordminutes = _context.DataTable.OrderByDescending(latest => latest.Minutes).Take(1).ToString();
-            //var record = _context.DataTable.OrderByDescending(latest => latest.Email).Take(1).ToString();
-            Console.WriteLine(latestrecordhour);
-           // int convertedhours = Convert.ToInt32(latestrecordhour);  //converted hours
-            //int convertedminutes = Convert.ToInt32(latestrecordminutes);    //converted minutes
-            if ((datetime.hours > 7) && (datetime.hours < 20) && ((datetime.hours - convertedhours) == 0 || (datetime.hours - convertedhours) == 1))
+            Console.WriteLine(convertedhours);
+            Console.WriteLine(convertedminutes);
+            Console.WriteLine(record);
+            if(dbDate != datetime.date)
+            {
+                return false;
+            }
+            else if ((datetime.hours > 7) && (datetime.hours < 20) && ((datetime.hours - convertedhours) == 0 || (datetime.hours - convertedhours) == 1))
             {
                 if ((((datetime.minutes - convertedminutes) > 0)) || record == null)
                 {
@@ -54,7 +58,7 @@ namespace HourlyChecker.Models
         {
             public int hours { get; set; }
             public int minutes { get; set; }
-            public int date { get; set; }
+            public string date { get; set; }
         }
     }
 }
